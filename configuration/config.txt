@@ -1,0 +1,5 @@
+[common info]
+
+url=http://demo.guru99.com/Agile_Project/Agi_V1/index.php
+userid=1303
+password=Guru99
