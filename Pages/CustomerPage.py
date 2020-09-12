@@ -6,6 +6,7 @@ class CustomerPage:
     table_rows_xpath="//tr//td//table//tr"
     table_col_xpath="//tr//td//table//tr[1]//th"
     link_continue_text="Continue"
+    click_link_logout_xpath="//a[contains(text(),'Log out')]"
 
     def __init__(self,driver):
         self.driver=driver
@@ -24,6 +25,11 @@ class CustomerPage:
     def verify_row_count(self):
         rows=self.driver.find_elements_by_xpath(self.table_rows_xpath)
         return rows
+
+    def click_logout(self):
+        self.driver.find_element_by_xpath(self.click_link_logout_xpath).click()
+
+
 
 
 
