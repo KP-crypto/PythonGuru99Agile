@@ -1,14 +1,18 @@
 from selenium import webdriver
 from Pages.Homepage import HomePage
 from Utilities.readrequirement import ReadConfig
+from Utilities.customlogger import logging
 import pytest
+
+logging.info("############################### Login Test has began ##########################")
 
 class TestLogin:
     url=ReadConfig.getApplicationURL()
     userid=ReadConfig.getUserid()
     password=ReadConfig.getPassword()
 
-    @pytest.mark.sanity
+    logging.info("##########  verify Home Page Title #################################")
+
     def test_loginpageTitle(self,setup):
         self.driver=setup
         self.driver.get(self.url)
@@ -17,9 +21,10 @@ class TestLogin:
         assert "Guru99 Bank Home Page" in title
         self.driver.close()
 
+    logging.info("############# verify Home Page Title test case completed ############################# ")
 
 
-    @pytest.mark.sanity
+    logging.info("############### Login test has started ############################################")
     def test_valid_login(self,setup):
         self.driver = setup
         self.driver.get(self.url)
@@ -31,6 +36,8 @@ class TestLogin:
         logintitle=self.driver.title
         assert "Guru99 Bank Customer HomePage" in logintitle
         self.driver.close()
+
+    logging.info("############## Login Test Completed Successfully ##############################")
 
 
 

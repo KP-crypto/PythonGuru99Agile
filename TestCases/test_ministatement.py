@@ -11,7 +11,7 @@ class Test_MiniStatement():
     userid = ReadConfig.getUserid()
     password = ReadConfig.getPassword()
 
-    @pytest.mark.regression
+    @pytest.mark.run(order=2)
     def test_miniStatement(self,setup):
         self.driver = setup
         self.driver.get(self.url)

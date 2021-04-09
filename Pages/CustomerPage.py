@@ -18,7 +18,6 @@ class CustomerPage:
         element=self.driver.find_element_by_name(self.select_text_name)
         return element
 
-
     def click_submit(self):
         self.driver.find_element_by_name(self.btn_submit_name).click()
 

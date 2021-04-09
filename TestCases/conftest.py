@@ -10,7 +10,6 @@ from webdriver_manager.microsoft import EdgeChromiumDriverManager
 def setup(browser):
     if browser=="chrome":
         chrome_options=Options()
-        chrome_options.add_argument("--headless")
         driver=webdriver.Chrome(ChromeDriverManager().install(),options=chrome_options)
     elif browser=="firefox":
         driver=webdriver.Firefox(executable_path=GeckoDriverManager().install())

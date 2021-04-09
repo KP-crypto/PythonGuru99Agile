@@ -4,6 +4,7 @@ config=configparser.RawConfigParser()
 config.read("C:/Users/Acer/PycharmProjects/AgileDevelopment/configuration/config.txt")
 
 class ReadConfig:
+
     @staticmethod
     def getApplicationURL():
         url=config.get('common info','URL')
