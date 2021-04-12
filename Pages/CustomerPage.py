@@ -1,4 +1,5 @@
 class CustomerPage:
+
     link_mimi_statement_link_text="Mini Statement"
     select_text_name="accountno"
     btn_submit_name="AccSubmit"

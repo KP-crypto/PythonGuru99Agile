@@ -1,5 +1,4 @@
 import pytest
-from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
@@ -8,9 +7,9 @@ from webdriver_manager.microsoft import EdgeChromiumDriverManager
 
 @pytest.fixture()
 def setup(browser):
+
     if browser=="chrome":
-        chrome_options=Options()
-        driver=webdriver.Chrome(ChromeDriverManager().install(),options=chrome_options)
+        driver=webdriver.Chrome(ChromeDriverManager().install())
     elif browser=="firefox":
         driver=webdriver.Firefox(executable_path=GeckoDriverManager().install())
     else:

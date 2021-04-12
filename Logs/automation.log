@@ -1,0 +1,8 @@
+2021-04-12 15:58:20,826 ############################### Login Test has began ##########################
+2021-04-12 15:58:20,827 ##########  verify Home Page Title #################################
+2021-04-12 15:58:20,827 ############# verify Home Page Title test case completed ############################# 
+2021-04-12 15:58:20,827 ############### Login test has started ############################################
+2021-04-12 15:58:20,827 ############## Login Test Completed Successfully ##############################
+2021-04-12 15:58:21,385 Current google-chrome version is 89.0.4389
+2021-04-12 15:58:21,396 Get LATEST driver version for 89.0.4389
+2021-04-12 15:58:21,849 Driver [C:\Users\Acer\.wdm\drivers\chromedriver\win32\89.0.4389.23\chromedriver.exe] found in cache
