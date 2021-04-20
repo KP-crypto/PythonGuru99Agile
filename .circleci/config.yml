@@ -12,7 +12,7 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          command: pytest -v -s C:\Users\Acer\PycharmProjects\AgileDevelopment\TestCases\test_validlogin.py --browser chrome
+          command: python -m pytest
           name: Test
 
 workflows:
