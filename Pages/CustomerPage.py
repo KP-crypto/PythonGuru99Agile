@@ -1,4 +1,5 @@
 class CustomerPage:
+
     link_mimi_statement_link_text="Mini Statement"
     select_text_name="accountno"
     btn_submit_name="AccSubmit"
@@ -17,7 +18,6 @@ class CustomerPage:
     def select_class(self):
         element=self.driver.find_element_by_name(self.select_text_name)
         return element
-
 
     def click_submit(self):
         self.driver.find_element_by_name(self.btn_submit_name).click()

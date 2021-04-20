@@ -33,6 +33,8 @@ class TestDDT:
             self.alert.accept()
 
         if "User or Password is not valid" in self.text:
+            Xlutils.writeexel(self.path,'Sheet1',r,3,'Fail')
+
             self.driver.save_screenshot("C:/Users/Acer/PycharmProjects/AgileDevelopment/Screenshots/alertmsg.png")
             assert True
             self.driver.close()
