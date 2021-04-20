@@ -10,7 +10,7 @@ class TestDDT:
     url = ReadConfig.getApplicationURL()
     path="C:/Users/Acer/PycharmProjects/AgileDevelopment/TestData/Book 1 (1).xlsx"
 
-    @pytest.mark.regression
+    @pytest.mark.skip
     def test_ddt_invalid(self,setup):
 
         self.driver = setup

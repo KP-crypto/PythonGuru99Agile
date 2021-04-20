@@ -1,7 +1,7 @@
 import configparser
 
 config=configparser.RawConfigParser()
-config.read("C:/Users/Acer/PycharmProjects/AgileDevelopment/configuration/config.txt")
+config.read("C:/Users/Acer/PycharmProjects/AgileDevelopment/configuration/config.ini")
 
 class ReadConfig:
 

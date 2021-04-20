@@ -29,3 +29,19 @@
 2021-04-16 10:02:07,264 Current google-chrome version is 89.0.4389
 2021-04-16 10:02:07,264 Get LATEST driver version for 89.0.4389
 2021-04-16 10:02:07,545 Driver [C:\Users\Acer\.wdm\drivers\chromedriver\win32\89.0.4389.23\chromedriver.exe] found in cache
+2021-04-20 10:08:25,095 ############################### Login Test has began ##########################
+2021-04-20 10:08:25,153 ##########  verify Home Page Title #################################
+2021-04-20 10:08:25,154 ############# verify Home Page Title test case completed ############################# 
+2021-04-20 10:08:25,154 ############### Login test has started ############################################
+2021-04-20 10:08:25,155 ############## Login Test Completed Successfully ##############################
+2021-04-20 10:08:26,722 Current google-chrome version is 89.0.4389
+2021-04-20 10:08:26,724 Get LATEST driver version for 89.0.4389
+2021-04-20 10:08:28,914 Get LATEST driver version for 89.0.4389
+2021-04-20 10:08:29,088 Trying to download new driver from http://chromedriver.storage.googleapis.com/89.0.4389.23/chromedriver_win32.zip
+2021-04-20 10:08:38,755 Driver has been saved in cache [C:\Users\Acer\.wdm\drivers\chromedriver\win32\89.0.4389.23]
+2021-04-20 10:09:32,433 Expected title matched actual title
+2021-04-20 10:09:36,310 Current google-chrome version is 89.0.4389
+2021-04-20 10:09:36,311 Get LATEST driver version for 89.0.4389
+2021-04-20 10:09:36,642 Driver [C:\Users\Acer\.wdm\drivers\chromedriver\win32\89.0.4389.23\chromedriver.exe] found in cache
+2021-04-20 10:10:28,058 HomePage Title matched with our expected Title
+2021-04-20 10:10:28,077 Guru99 Bank Customer HomePage
