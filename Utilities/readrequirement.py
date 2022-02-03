@@ -1,7 +1,10 @@
 import configparser
+from pathlib import Path
+
+project_path = Path(__file__).parent.parent
 
 config=configparser.RawConfigParser()
-config.read("C:/Users/Acer/PycharmProjects/AgileDevelopment/configuration/config.ini")
+config.read(project_path+"/"+"/configuration/config.ini")
 
 class ReadConfig:
 
