@@ -4,7 +4,7 @@ from pathlib import Path
 project_path = Path(__file__).parent.parent
 
 config=configparser.RawConfigParser()
-config.read(str(project_path)+"/"+"/configuration/config.ini")
+config.read(str(project_path)+"/configuration/config.ini")
 
 class ReadConfig:
 
